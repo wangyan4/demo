@@ -1,0 +1,265 @@
+/*
+* @Author: 22369
+* @Date:   2018-05-19 11:17:48
+* @Last Modified by:   22369
+* @Last Modified time: 2018-05-23 18:32:41
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,li,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/* header开始 */
+.header{
+	height: 173px;
+	background-color: #eeeeef;
+}
+.logo{
+	padding-top: 30px;
+	height: 95px;
+	text-align: center;
+}
+.nav{
+	width: 670px;
+	height: 45px;
+	background-color: #fff; 
+	margin: 0 auto;
+	border-radius: 22.5px;
+}
+.nav li{
+	font-size: 14px;
+	float: left;
+	height: 45px;
+	background: url("../img/line.png") no-repeat right center;
+	padding: 0 30px;
+	line-height: 45px;
+}
+.nav li:hover a{
+	border-bottom: 3px solid #1e50ae;
+	display: block;
+	height: 42px;
+}
+.nav li:last-child{
+	background-image: none;
+}
+/* header结束 */
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 405px;
+	background: url("../img/banner.png") no-repeat  center center;
+}
+/* banner结束 */
+/* serve开始 */
+.serve{
+	width: 1200px;
+	height: 810px;
+	margin: 0 auto;
+}
+h3{
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 25px;
+}
+.serve>p{
+	text-align: center;
+	padding-bottom: 65px;
+}
+.serve .big{
+	height: 365px;
+}
+.serve>ul>li>img{
+	margin-left: 50px;
+}
+.serve>ul>li{
+	float: left;
+	width: 300px;
+}
+.serve>ul>li>p{
+	font-size: 16px;
+	padding-left: 85px;
+	margin-bottom: 5px;
+}
+.serve>ul>li>ul{
+	padding-left: 100px;
+}
+.serve>ul>li>ul>li{
+	font-size: 14px;
+	list-style-image: url("../img/back.png"); 
+}
+
+/* serve结束 */
+/* solve开始 */
+.solve{
+	width: 100%;
+	height: 712px;
+	background: url('../img/backg.png') no-repeat center center;
+	position: relative;
+}
+.solve>p{
+	text-align: center;
+	padding-bottom: 65px;
+	color: #fff;
+}
+.solve>h3{
+	color: #fff;
+}
+.solve>ul{
+	width: 1200px;
+	margin: 0 auto;
+	padding-left: 125px;
+	margin-top: 35px;
+}
+.solve li{
+	float: left;
+	margin-right: 50px;
+}
+.solve li:last-child{
+	margin-right: 0;
+}
+.solve .zuo{
+	position: absolute;
+	top: 345px;
+	left: 180px;
+}
+.solve .you{
+	position: absolute;
+	top: 345px;
+	right: 180px;
+}
+.next{
+	position:absolute;
+	top: 580px;
+	left: 42%;
+}
+/* solve结束 */
+/* latest开始 */
+.latest{
+	height: 910px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.latest>p{
+	text-align: center;
+	padding-bottom: 65px;
+}
+.know{
+	padding-top: 50px;
+}
+.box>div{
+	width: 560px;
+	height: 350px;
+	float: left;
+}
+.box{
+	float: left;
+	width: 1150px;
+	height: 750px;
+	margin-left:60px;
+}
+.box li{
+	border-bottom: 1px dashed #dcdcdc;
+	line-height: 50px;
+	font-size: 14px;
+}
+.box li:last-child{
+	border-bottom: none;
+}
+.little{
+	/* padding-left: 100px; */
+
+}
+
+/* latest结束 */
+/* bottom开始 */
+.back{
+	width: 100%;
+	height: 100px;
+	background-color: #f5f5f5;
+}
+.bottom{
+	width: 1200px;
+	height: 100px;
+	padding-top: 30px;
+	padding-left: 100px;
+	margin: 0 auto;
+}
+.bottom li{
+	float: left;
+	width: 300px;
+}
+.bottom img{
+	float: left;
+}
+/* bottom结束 */
+/* last开始 */
+.last{
+	width: 100%;
+	height: 386px;
+	color: #fff;
+	background-color: #323232;
+}
+.zhong{
+	width: 1200px;
+	height: 230px;
+	margin: 0 auto;	
+	padding-top: 70px;
+	padding-left: 100px;
+}
+.zhong>div{
+	float: left;
+}
+.last .style{
+	font-size: 18px;
+	padding-bottom: 33px;
+}
+.last>ul>li{
+	font-size: 14px;
+}
+.last ul{
+	float: left;
+	width: 140px;
+}
+.last .chat{
+	width: 240px;
+	border-right: 2px solid #777777;
+}
+.last .chat>img{
+	float: left;
+}
+.last .chat p{
+	padding-top: 10px;
+	position: relative;
+	top: -15px;
+	left: 40px;
+}
+.last .end{
+	width: 1200px;
+	margin: 0 auto;
+}
+.last .end ul{
+	width: 1200px;
+	padding-left: 150px;
+	margin: 0 auto;
+	font-size: 14px;
+}
+.last .end li{
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 40px;
+	border-right: 2px solid #fff;
+}
+.last .end li:last-child{
+	border-right: none;
+}
+.last .end p{
+	text-align: center;
+	font-size: 14px;
+}
+/* last结束 */
